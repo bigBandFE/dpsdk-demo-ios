@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B69E25A2FBC4A6000D2E6AA /* DPSDKKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4B69E2592FBC4A6000D2E6AA /* DPSDKKit */; };
+		82835850C57B2E6D946A0A6C /* Pods_DPSDK_DEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD133AC27BD34E2EB7EC7AC7 /* Pods_DPSDK_DEMO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B4E6EC52F7161A300228B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4E6EA62F7161A100228B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4E6EAD2F7161A100228B39;
+			remoteInfo = "DPSDK-DEMO";
+		};
+		4B4E6ECF2F7161A300228B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4E6EA62F7161A100228B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4E6EAD2F7161A100228B39;
+			remoteInfo = "DPSDK-DEMO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AAA2AB3B0D885A6DB4A2C23 /* Pods-DPSDK-DEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPSDK-DEMO.release.xcconfig"; path = "Target Support Files/Pods-DPSDK-DEMO/Pods-DPSDK-DEMO.release.xcconfig"; sourceTree = "<group>"; };
+		4B4E6EAE2F7161A100228B39 /* DPSDK-DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPSDK-DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4E6EC42F7161A300228B39 /* DPSDK-DEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DPSDK-DEMOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4E6ECE2F7161A300228B39 /* DPSDK-DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DPSDK-DEMOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC224C59269C377DF6756242 /* Pods-DPSDK-DEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPSDK-DEMO.debug.xcconfig"; path = "Target Support Files/Pods-DPSDK-DEMO/Pods-DPSDK-DEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		FD133AC27BD34E2EB7EC7AC7 /* Pods_DPSDK_DEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPSDK_DEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B4E6ED62F7161A300228B39 /* Exceptions for "DPSDK-DEMO" folder in "DPSDK-DEMO" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4B4E6EAD2F7161A100228B39 /* DPSDK-DEMO */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B4E6EB02F7161A100228B39 /* DPSDK-DEMO */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B4E6ED62F7161A300228B39 /* Exceptions for "DPSDK-DEMO" folder in "DPSDK-DEMO" target */,
+			);
+			path = "DPSDK-DEMO";
+			sourceTree = "<group>";
+		};
+		4B4E6EC72F7161A300228B39 /* DPSDK-DEMOTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DPSDK-DEMOTests";
+			sourceTree = "<group>";
+		};
+		4B4E6ED12F7161A300228B39 /* DPSDK-DEMOUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DPSDK-DEMOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4E6EAB2F7161A100228B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B69E25A2FBC4A6000D2E6AA /* DPSDKKit in Frameworks */,
+				82835850C57B2E6D946A0A6C /* Pods_DPSDK_DEMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6EC12F7161A300228B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6ECB2F7161A300228B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA4CD50762E8474B5F24BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC224C59269C377DF6756242 /* Pods-DPSDK-DEMO.debug.xcconfig */,
+				4AAA2AB3B0D885A6DB4A2C23 /* Pods-DPSDK-DEMO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B4E6EA52F7161A100228B39 = {
+			isa = PBXGroup;
+			children = (
+				4B4E6EB02F7161A100228B39 /* DPSDK-DEMO */,
+				4B4E6EC72F7161A300228B39 /* DPSDK-DEMOTests */,
+				4B4E6ED12F7161A300228B39 /* DPSDK-DEMOUITests */,
+				4B4E6EAF2F7161A100228B39 /* Products */,
+				4E547938DCE9E40573F60104 /* Frameworks */,
+				2BA4CD50762E8474B5F24BD7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4E6EAF2F7161A100228B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4E6EAE2F7161A100228B39 /* DPSDK-DEMO.app */,
+				4B4E6EC42F7161A300228B39 /* DPSDK-DEMOTests.xctest */,
+				4B4E6ECE2F7161A300228B39 /* DPSDK-DEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E547938DCE9E40573F60104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD133AC27BD34E2EB7EC7AC7 /* Pods_DPSDK_DEMO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4E6EAD2F7161A100228B39 /* DPSDK-DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4E6ED72F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMO" */;
+			buildPhases = (
+				6EF1349D18180D6C92A3927D /* [CP] Check Pods Manifest.lock */,
+				4B4E6EAA2F7161A100228B39 /* Sources */,
+				4B4E6EAB2F7161A100228B39 /* Frameworks */,
+				4B4E6EAC2F7161A100228B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B4E6EB02F7161A100228B39 /* DPSDK-DEMO */,
+			);
+			name = "DPSDK-DEMO";
+			productName = "DPSDK-DEMO";
+			productReference = 4B4E6EAE2F7161A100228B39 /* DPSDK-DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B4E6EC32F7161A300228B39 /* DPSDK-DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4E6EDC2F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMOTests" */;
+			buildPhases = (
+				4B4E6EC02F7161A300228B39 /* Sources */,
+				4B4E6EC12F7161A300228B39 /* Frameworks */,
+				4B4E6EC22F7161A300228B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4E6EC62F7161A300228B39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B4E6EC72F7161A300228B39 /* DPSDK-DEMOTests */,
+			);
+			name = "DPSDK-DEMOTests";
+			productName = "DPSDK-DEMOTests";
+			productReference = 4B4E6EC42F7161A300228B39 /* DPSDK-DEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B4E6ECD2F7161A300228B39 /* DPSDK-DEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4E6EDF2F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMOUITests" */;
+			buildPhases = (
+				4B4E6ECA2F7161A300228B39 /* Sources */,
+				4B4E6ECB2F7161A300228B39 /* Frameworks */,
+				4B4E6ECC2F7161A300228B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4E6ED02F7161A300228B39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B4E6ED12F7161A300228B39 /* DPSDK-DEMOUITests */,
+			);
+			name = "DPSDK-DEMOUITests";
+			productName = "DPSDK-DEMOUITests";
+			productReference = 4B4E6ECE2F7161A300228B39 /* DPSDK-DEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4E6EA62F7161A100228B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					4B4E6EAD2F7161A100228B39 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					4B4E6EC32F7161A300228B39 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 4B4E6EAD2F7161A100228B39;
+					};
+					4B4E6ECD2F7161A300228B39 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 4B4E6EAD2F7161A100228B39;
+					};
+				};
+			};
+			buildConfigurationList = 4B4E6EA92F7161A100228B39 /* Build configuration list for PBXProject "DPSDK-DEMO" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B4E6EA52F7161A100228B39;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B69E2582FBC4A6000D2E6AA /* XCRemoteSwiftPackageReference "dpsdk-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B4E6EAF2F7161A100228B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4E6EAD2F7161A100228B39 /* DPSDK-DEMO */,
+				4B4E6EC32F7161A300228B39 /* DPSDK-DEMOTests */,
+				4B4E6ECD2F7161A300228B39 /* DPSDK-DEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4E6EAC2F7161A100228B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6EC22F7161A300228B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6ECC2F7161A300228B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EF1349D18180D6C92A3927D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPSDK-DEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4E6EAA2F7161A100228B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6EC02F7161A300228B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E6ECA2F7161A300228B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4E6EC62F7161A300228B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4E6EAD2F7161A100228B39 /* DPSDK-DEMO */;
+			targetProxy = 4B4E6EC52F7161A300228B39 /* PBXContainerItemProxy */;
+		};
+		4B4E6ED02F7161A300228B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4E6EAD2F7161A100228B39 /* DPSDK-DEMO */;
+			targetProxy = 4B4E6ECF2F7161A300228B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B4E6ED82F7161A300228B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC224C59269C377DF6756242 /* Pods-DPSDK-DEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V6CL58U4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DPSDK-DEMO/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DP Hybrid SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragonpass.dpsdkkitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4E6ED92F7161A300228B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAA2AB3B0D885A6DB4A2C23 /* Pods-DPSDK-DEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V6CL58U4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DPSDK-DEMO/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DP Hybrid SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragonpass.dpsdkkitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B4E6EDA2F7161A300228B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B4E6EDB2F7161A300228B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4E6EDD2F7161A300228B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dragonpass.DPSDK-DEMO.DPSDK-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPSDK-DEMO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DPSDK-DEMO";
+			};
+			name = Debug;
+		};
+		4B4E6EDE2F7161A300228B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dragonpass.DPSDK-DEMO.DPSDK-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPSDK-DEMO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DPSDK-DEMO";
+			};
+			name = Release;
+		};
+		4B4E6EE02F7161A300228B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dragonpass.DPSDK-DEMO.DPSDK-DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DPSDK-DEMO";
+			};
+			name = Debug;
+		};
+		4B4E6EE12F7161A300228B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62SCSZA3ZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dragonpass.DPSDK-DEMO.DPSDK-DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DPSDK-DEMO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4E6EA92F7161A100228B39 /* Build configuration list for PBXProject "DPSDK-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4E6EDA2F7161A300228B39 /* Debug */,
+				4B4E6EDB2F7161A300228B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4E6ED72F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4E6ED82F7161A300228B39 /* Debug */,
+				4B4E6ED92F7161A300228B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4E6EDC2F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4E6EDD2F7161A300228B39 /* Debug */,
+				4B4E6EDE2F7161A300228B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4E6EDF2F7161A300228B39 /* Build configuration list for PBXNativeTarget "DPSDK-DEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4E6EE02F7161A300228B39 /* Debug */,
+				4B4E6EE12F7161A300228B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B69E2582FBC4A6000D2E6AA /* XCRemoteSwiftPackageReference "dpsdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bigBandFE/dpsdk-ios-spm.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B69E2592FBC4A6000D2E6AA /* DPSDKKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B69E2582FBC4A6000D2E6AA /* XCRemoteSwiftPackageReference "dpsdk-ios-spm" */;
+			productName = DPSDKKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B4E6EA62F7161A100228B39 /* Project object */;
+}

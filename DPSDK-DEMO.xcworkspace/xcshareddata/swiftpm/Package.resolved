@@ -1,0 +1,15 @@
+{
+  "originHash" : "331fbdb0b65d1f5439f331a0aa685b10efd4fa9f3f687d80ab57a876e33891ed",
+  "pins" : [
+    {
+      "identity" : "dpsdk-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bigBandFE/dpsdk-ios-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "363bb9323f63bb6e4a15323d3b1154ad22e89b8d"
+      }
+    }
+  ],
+  "version" : 3
+}
